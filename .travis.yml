@@ -13,9 +13,8 @@ node_js:
   - "6"
   - "6.1"
 before_script:
-  - npm i -g ava codecov nyc standard
+  - yarn global add ava codecov nyc standard
   - npm i --only=dev
-  - npm i
 script:
   - npm run lint
   - npm run test
