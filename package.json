@@ -1,9 +1,9 @@
 {
-  "name": "khaosdoctor/codename",
+  "name": "codename",
   "version": "1.0.0",
   "description": "Parsing your semantic version numbers into awesome version names!",
   "main": "index.js",
-  "repository": "https://github.com/khaosdoctor/Codename.git",
+  "repository": "khaosdoctor/Codename",
   "author": "Lucas Santos <lhs.santoss@gmail.com>",
   "bugs": {
     "url": "https://github.com/khaosdoctor/Codename/issues"
