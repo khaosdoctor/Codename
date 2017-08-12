@@ -139,6 +139,6 @@ That's it.
 - [codename-zodiac](https://github.com/khaosdoctor/codename-zodiac): Outputs Zodiac Signs for each version number (starting on `1`, major only)
 - [codename-pokemon](https://github.com/khaosdoctor/codename-pokemon): Outputs Pokémon™ names for version numbers
 - [codename-zodiac-warriors](https://github.com/khaosdoctor/codename-zodiac-warriors): Outputs zodiac warriors names for version numbers (starting on `1`, major only)
-- [codename-universe](https://github.com/khaosdoctor/codename-universe): Outputs start names for major version numbers (start on `0`), planet names for minor numbers and moon names for patch numbers
+- [codename-universe](https://github.com/khaosdoctor/codename-universe): Outputs star names for major version numbers (start on `0`), constellation names for minor numbers and moon names for patch numbers
 
 > Add yours here by submiting a PR! :smile:
