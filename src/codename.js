@@ -23,8 +23,8 @@ class Codename {
    * @returns {Codename} The instance of the class
    * @memberof Codename
    */
-  parse (version = '0.0.0') {
-    this._version = version
+  parse (version) {
+    this._version = version || '0.0.0'
     const [major, minor, patch] = this._version.split('.') // Destructuring into small pieces
 
     // Checks if the index exists and, if so, returns the version parser name, otherwise returns the version number

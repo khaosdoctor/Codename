@@ -18,7 +18,7 @@
     "fun"
   ],
   "scripts": {
-    "test": "exit 0",
+    "test": "ava --color -v -T 2000",
     "lint": "standard",
     "cover": "nyc --reporter=lcov --reporter=text --reporter-dir ./coverage --clean --cache --instrument ava",
     "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output"
