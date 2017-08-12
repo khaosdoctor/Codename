@@ -1,5 +1,7 @@
 # Codename
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
+
 > Parsing your semantic version numbers into awesome version names!
 
 ## Summary
