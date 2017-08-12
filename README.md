@@ -138,6 +138,9 @@ That's it.
 
 - [codename-zodiac](https://github.com/khaosdoctor/codename-zodiac): Outputs Zodiac Signs for each version number (starting on `1`, major only)
 - [codename-greek](https://github.com/khaosdoctor/codename-greek): Outputs greek letters for version numbers
+- [codename-greek-gods](https://github.com/khaosdoctor/codename-greek-gods): Outputs greek god names for major version numbers, demigod names for minor version numbers and hero names for patches (start on `1`)
+- [codename-titans](https://github.com/khaosdoctor/codename-titans): Outputs greek titan names for version numbers (start on `1`, major only)
+- [codename-nordic](https://github.com/khaosdoctor/codename-nordic): Outputs nordic gods names for version numbers (starting on `1`, major only)
 - [codename-zodiac-warriors](https://github.com/khaosdoctor/codename-zodiac-warriors): Outputs zodiac warriors names for version numbers (starting on `1`, major only)
 - [codename-universe](https://github.com/khaosdoctor/codename-universe): Outputs star names for major version numbers (start on `0`), constellation names for minor numbers and moon names for patch numbers
 
