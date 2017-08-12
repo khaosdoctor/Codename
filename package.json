@@ -1,5 +1,5 @@
 {
-  "name": "Codename",
+  "name": "codename",
   "version": "0.0.1",
   "description": "Parsing your semantic version numbers into awesome version names!",
   "main": "index.js",
@@ -20,6 +20,6 @@
   "engines": {
     "node": ">=6"
   },
-
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
