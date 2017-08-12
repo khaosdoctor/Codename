@@ -1,0 +1,24 @@
+os:
+  - linux
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - "node"
+  - "8"
+  - "7"
+  - "6"
+  - "6.1"
+before_script:
+  - npm i -g ava codecov nyc standard
+  - npm i --only=dev
+  - npm i
+script:
+  - npm run lint
+  - npm run test
+  - npm run cover
+after_success:
+  - npm run report

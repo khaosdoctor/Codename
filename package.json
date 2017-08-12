@@ -17,9 +17,21 @@
     "versionname",
     "fun"
   ],
+  "scripts": {
+    "test": "exit 0",
+    "lint": "standard",
+    "cover": "nyc --reporter=lcov --reporter=text --reporter-dir ./coverage --clean --cache --instrument ava",
+    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output"
+  },
   "engines": {
     "node": ">=6"
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "codecov": "^2.3.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.0"
+  }
 }
