@@ -1,6 +1,6 @@
 # Codename
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm version](https://badge.fury.io/js/%40khaosdoctor%2Fcodename.svg)](https://badge.fury.io/js/%40khaosdoctor%2Fcodename) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/khaosdoctor/Codename/master/LICENSE) [![Codename](https://img.shields.io/badge/codename-Aries-orange.svg)](https://github.com/khaosdoctor/Codename/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/91a0f8a91997485c96b2493dce36de01)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=khaosdoctor/Codename&amp;utm_campaign=Badge_Grade) [![codecov](https://codecov.io/gh/khaosdoctor/Codename/branch/master/graph/badge.svg)](https://codecov.io/gh/khaosdoctor/Codename) [![Build Status](https://travis-ci.org/khaosdoctor/Codename.svg?branch=master)](https://travis-ci.org/khaosdoctor/Codename)
 
 > Parsing your semantic version numbers into awesome version names!
 

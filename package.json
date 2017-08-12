@@ -1,5 +1,5 @@
 {
-  "name": "@khaosdoctor/codename",
+  "name": "codename",
   "version": "1.0.0",
   "description": "Parsing your semantic version numbers into awesome version names!",
   "main": "index.js",
