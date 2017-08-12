@@ -34,16 +34,16 @@ Your full project codename would be: `V1.2.3 - Bulbasaur` (or `V Bulbasaur.Ivysa
 First, install the package by issuing:
 
 ```sh
-npm i khaosdoctor/codename --save
+npm i @khaosdoctor/codename --save
 ```
 
 Or, if you like yarn:
 
 ```sh
-yarn add khaosdoctor/codename
+yarn add @khaosdoctor/codename
 ```
 
-Then, in your project require it as `const codename = require('khaosdoctor/codename')`
+Then, in your project require it as `const codename = require('@khaosdoctor/codename')`
 
 ### Parsers
 
