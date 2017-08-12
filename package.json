@@ -1,0 +1,25 @@
+{
+  "name": "Codename",
+  "version": "0.0.1",
+  "description": "Parsing your semantic version numbers into awesome version names!",
+  "main": "index.js",
+  "repository": "https://github.com/khaosdoctor/Codename.git",
+  "author": "Lucas Santos <lhs.santoss@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/khaosdoctor/Codename/issues"
+  },
+  "homepage": "https://lsantos.me/Codename",
+  "keywords": [
+    "semver",
+    "version",
+    "codename",
+    "alias",
+    "versionname",
+    "fun"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+
+  "license": "MIT"
+}
