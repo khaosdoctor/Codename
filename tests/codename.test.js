@@ -35,7 +35,7 @@ describe('Should return 0.0.0', (assert) => {
   assert.deepEqual(version, '0.0.0')
 })
 
-//----//
+// ---- //
 
 describe('Should return the major parsed version number', (assert) => {
   const major = assert.context.instance.parse(assert.context.version).major
@@ -55,7 +55,7 @@ describe('Should return the patch version number', (assert) => {
   assert.deepEqual(patch, assert.context.parser.patch[assert.context.version.split('.')[2]])
 })
 
-//----//
+// ---- //
 
 describe('Should return the major version number', (assert) => {
   const major = new Codename({major: ['Aries']}).parse(assert.context.version).major
@@ -75,7 +75,7 @@ describe('Should return the patch version number', (assert) => {
   assert.deepEqual(patch, assert.context.version.split('.')[2])
 })
 
-//----//
+// ---- //
 
 describe('Should return the full codename', (assert) => {
   const codename = assert.context.instance.parse(assert.context.version).codename
