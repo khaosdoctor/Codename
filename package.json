@@ -1,6 +1,6 @@
 {
-  "name": "codename",
-  "version": "1.0.1",
+  "name": "@khaosdoctor/codename",
+  "version": "1.0.2",
   "description": "Parsing your semantic version numbers into awesome version names!",
   "main": "index.js",
   "repository": "khaosdoctor/Codename",
