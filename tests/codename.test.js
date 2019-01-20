@@ -58,19 +58,19 @@ describe('Should return the patch version number', (assert) => {
 // ---- //
 
 describe('Should return the major version number', (assert) => {
-  const major = new Codename({major: ['Aries']}).parse(assert.context.version).major
+  const major = new Codename({ major: ['Aries'] }).parse(assert.context.version).major
 
   assert.deepEqual(major, assert.context.version.split('.')[0])
 })
 
 describe('Should return the minor version number', (assert) => {
-  const minor = new Codename({minor: ['Calisto']}).parse(assert.context.version).minor
+  const minor = new Codename({ minor: ['Calisto'] }).parse(assert.context.version).minor
 
   assert.deepEqual(minor, assert.context.version.split('.')[1])
 })
 
 describe('Should return the patch version number', (assert) => {
-  const patch = new Codename({patch: ['Europa']}).parse(assert.context.version).patch
+  const patch = new Codename({ patch: ['Europa'] }).parse(assert.context.version).patch
 
   assert.deepEqual(patch, assert.context.version.split('.')[2])
 })
