@@ -19,5 +19,18 @@ script:
   - npm run lint
   - npm run test
   - npm run cover
+
+jobs:
+  include:
+    - stage: "Deploy"
+      deploy:
+        provider: npm
+        email: $NPM_EMAIL_ADDR
+        api_key: $NPM_API_KEY
+        skip_cleanup: true
+        on:
+          tags: true
+          branch: master
+
 after_success:
   - npm run report
