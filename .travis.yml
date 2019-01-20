@@ -8,13 +8,14 @@ notifications:
   email: false
 node_js:
   - "node"
+  - "10"
+  - "9"
   - "8"
   - "7"
   - "6"
-  - "6.1"
 before_script:
-  - yarn global add ava codecov nyc standard
-  - npm i --only=dev
+  - npm i -g ava codecov nyc standard
+  - npm i
 script:
   - npm run lint
   - npm run test
